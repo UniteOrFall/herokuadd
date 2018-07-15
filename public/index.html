@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Socket app</title>
+    <link rel="stylesheet" href="chat.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id = 'message'>
+    <ul id="result"></ul>
+    </div>
+    <div id="input-section">
+<input id = "input">
+<button id="btn">Add</button>
+    </div>
+    <div id="connected">
+        <h1>Connected Users</h1>
+        <ul id="users"></ul>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+#container{
+    height:400px;
+    width:70%;
+    border: 2px solid;
+    margin:0px auto;
+}
+#message {
+    width: 69.5%;
+    float:left;
+    height: 100%;
+    overflow: auto;
+    border: 2px solid;
+
+}
+#connected{
+    height:100%;
+    width:29%;
+    float:right;
+
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#users li:before {
+    content: "\f111";
+    font-family: FontAwesome;
+    color: green; /* or whatever color you prefer */
+    margin-right: 4px;
+    font-size: 10px;
+}
+#input-section{
+    position: absolute;
+    bottom: 198px;
+    left:230px;
+}
+#input{
+    word-wrap: break-word;
+    width: 800px;
+    height: 35px;
+    font-size: 16px;
+}
+#btn{
+    font-size: 16px;
+    padding: 12px;
+}
+#u{
+    display:inline;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Adobe Gothic Std B";
+    color:lightseagreen;
+}
+#v{
+    display:inline;
+}
